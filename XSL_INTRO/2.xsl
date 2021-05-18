@@ -6,19 +6,19 @@
   <xsl:apply-templates/>
   </body ></html>
   </xsl:template>
-  <xsl:template match="ãðàôèêà">
+  <xsl:template match="Ð³Ñ€Ð°Ñ„Ð¸ÐºÐ°">
     <svg>
-    <xsl:attribute name="height"><xsl:value-of select="@øèðèíà"/> </xsl:attribute>
-    <xsl:attribute name="width"><xsl:value-of select="@âûñîòà"/> </xsl:attribute>
-      <xsl:for-each select="ýëëèïñ">
+    <xsl:attribute name="height"><xsl:value-of select="@ÑˆÐ¸Ñ€Ð¸Ð½Ð°"/> </xsl:attribute>
+    <xsl:attribute name="width"><xsl:value-of select="@Ð²Ñ‹ÑÐ¾Ñ‚Ð°"/> </xsl:attribute>
+      <xsl:for-each select="ÑÐ»Ð»Ð¸Ð¿Ñ">
         <ellipse> 
           <xsl:attribute name="cx"><xsl:value-of select="@cx"/> </xsl:attribute>
           <xsl:attribute name="cy"><xsl:value-of select="@cy"/> </xsl:attribute>
           <xsl:attribute name="rx"><xsl:value-of select="@rx"/> </xsl:attribute>
           <xsl:attribute name="ry"><xsl:value-of select="@ry"/> </xsl:attribute>
-          <xsl:attribute name="fill"><xsl:value-of select="@çàëèâêà"/> </xsl:attribute>
-          <xsl:attribute name="stroke"><xsl:value-of select="@îáîäîê"/> </xsl:attribute>
-          <xsl:attribute name="stroke-width"><xsl:value-of select="@øèðèíà-îáîäêà"/> </xsl:attribute>
+          <xsl:attribute name="fill"><xsl:value-of select="@Ð·Ð°Ð»Ð¸Ð²ÐºÐ°"/> </xsl:attribute>
+          <xsl:attribute name="stroke"><xsl:value-of select="@Ð¾Ð±Ð¾Ð´Ð¾Ðº"/> </xsl:attribute>
+          <xsl:attribute name="stroke-width"><xsl:value-of select="@ÑˆÐ¸Ñ€Ð¸Ð½Ð°-Ð¾Ð±Ð¾Ð´ÐºÐ°"/> </xsl:attribute>
       </ellipse>
         </xsl:for-each>
     </svg> 
