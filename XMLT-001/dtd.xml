@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!ELEMENT òàáëèöà (ñòóäåíò)*>
-<!ELEMENT ñòóäåíò (îòìåòêà)*>
-<!ELEMENT îòìåòêà (#PCDATA)>
-<!ATTLIST ñòóäåíò
-   èìÿ CDATA #REQUIRED
+<!ELEMENT Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ð° (ÑÑ‚ÑƒÐ´ÐµÐ½Ñ‚)*>
+<!ELEMENT ÑÑ‚ÑƒÐ´ÐµÐ½Ñ‚ (Ð¾Ñ‚Ð¼ÐµÑ‚ÐºÐ°)*>
+<!ELEMENT Ð¾Ñ‚Ð¼ÐµÑ‚ÐºÐ° (#PCDATA)>
+<!ATTLIST ÑÑ‚ÑƒÐ´ÐµÐ½Ñ‚
+   Ð¸Ð¼Ñ CDATA #REQUIRED
 >
-<!ATTLIST îòìåòêà
-   äèñöèïëèíà CDATA #REQUIRED
+<!ATTLIST Ð¾Ñ‚Ð¼ÐµÑ‚ÐºÐ°
+   Ð´Ð¸ÑÑ†Ð¸Ð¿Ð»Ð¸Ð½Ð° CDATA #REQUIRED
 >
 
 https://kodaktor.ru/?!=_dtd/2da88
